@@ -13,8 +13,8 @@ public class Femme extends Humain {
     }
     
     public static void main(String[] args) {
-        Homme h = new Homme("Dupont", "Jean", 30);
-        Femme f = new Femme("Durand", "Marie", 28);
+        Homme h = new Homme("Jhon", "Clermont", 27);
+        Femme f = new Femme("Arisoa", "Justinah", 24);
 
         h.ami(f);
     }

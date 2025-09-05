@@ -8,7 +8,8 @@ public class Humain implements Consommation {
 	
 	@Override
 	public String toString() {
-	    return nom + " " + prenom + " a " + age + " ans.";
+		System.out.println(nom + prenom + age);
+	    return nom + " " + prenom + " a " + age + " ans.";   
 	}
 
 	public void details() {
